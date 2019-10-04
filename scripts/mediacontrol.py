@@ -12,9 +12,9 @@ some_value = 5000
 @skywriter.flick()
 def flick(start,finish):
   if start == "east" and finish == "west":
-   r = requests.get("http://192.168.1.60:5001/Home/back")
+   r = requests.get("http://192.168.1.60:5001/Control/back")
   if start == "west" and finish == "east":
-   r = requests.get("http://192.168.1.60:5001/Home/next")
+   r = requests.get("http://192.168.1.60:5001/Control/next")
   print('Got a flick!', start, finish)
 
 @skywriter.airwheel()
@@ -30,7 +30,7 @@ def spinny(delta):
 @skywriter.double_tap()
 def doubletap(position):
   print('Double tap!', position)
-  r = requests.get("http://192.168.1.60:5001/Home/play")
+  r = requests.get("http://192.168.1.60:5001/Control/play")
   #print(r.json)
 
 @skywriter.tap()
