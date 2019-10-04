@@ -28,7 +28,7 @@ namespace mediacontrol.Controllers
         }
 
         [HttpGet]
-        [Route("/home/play")]
+        [Route("/control/play")]
         public IActionResult Play()
         {
             CallPython("play");
@@ -36,7 +36,7 @@ namespace mediacontrol.Controllers
         }
 
         [HttpGet]
-        [Route("/home/next")]
+        [Route("/control/next")]
         public IActionResult Next()
         {
             CallPython("next");
@@ -44,7 +44,7 @@ namespace mediacontrol.Controllers
         }
 
         [HttpGet]
-        [Route("/home/back")]
+        [Route("/control/back")]
         public IActionResult Back()
         {
             CallPython("back");
