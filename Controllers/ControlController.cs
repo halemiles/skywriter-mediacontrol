@@ -51,6 +51,22 @@ namespace mediacontrol.Controllers
             return Ok();
         }
 
+        [HttpGet]
+        [Route("/control/volup")]
+        public IActionResult VolUp()
+        {
+            CallPython("volup");
+            return Ok();
+        }
+
+        [HttpGet]
+        [Route("/control/voldown")]
+        public IActionResult VolDown()
+        {
+            CallPython("voldown");
+            return Ok();
+        }
+
         private bool CallPython(string action)
         {
             ProcessStartInfo start = new ProcessStartInfo();
