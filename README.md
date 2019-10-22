@@ -1,5 +1,13 @@
 # skywriter-mediacontrols
 
+## Available gestures
+- ⏯️ Tap: Play/Pause
+- ➡️ Swipe left to right : Go to start of track (keep swiping to go to previous track)
+- ⬅️ Swipe right to left: Next track
+- 🔄 Airwheel clockwise: Decrease volume
+- 🔄 Airwheel anti-clockwise: Increase volume
+
+
 ## Prereqs
 ### Computer playing music
 - Install pywin32 module for python3 `pip3 install pywin32`
