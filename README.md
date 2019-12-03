@@ -15,8 +15,8 @@ https://www.youtube.com/watch?v=TsQq1XQqXrs
 ### Computer playing music
 - Install pywin32 module for python3 `pip3 install pywin32`
 - Make sure dotnet core is installed (2.2+)
-- Open ports
-- Run app
+- Open ports on firewall or router
+- Run app `dotnet run`
 
 ### Pi with skywriter
 - Install skywriter `curl -sSL get.pimoroni.com/skywriter | bash`
