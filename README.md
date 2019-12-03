@@ -1,8 +1,5 @@
 # skywriter-mediacontrols
 
-## Demo
-https://www.youtube.com/watch?v=TsQq1XQqXrs
-
 ## Available gestures
 - ⏯️ Tap: Play/Pause
 - ➡️ Swipe left to right : Go to start of track (keep swiping to go to previous track)
