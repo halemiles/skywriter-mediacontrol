@@ -1,7 +1,7 @@
 # skywriter-mediacontrols
 
 ## Demo
-https://www.youtube.com/watch?v=TsQq1XQqXrs&list=WL&index=22&t=0s
+https://www.youtube.com/watch?v=TsQq1XQqXrs
 
 ## Available gestures
 - ⏯️ Tap: Play/Pause
